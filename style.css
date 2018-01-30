@@ -1,0 +1,693 @@
+body {
+  font-family: 'Lato'; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.box1 {
+
+  padding-bottom: 30px;
+
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 40px;
+}
+
+.calPdf {
+  font-size: x-large;
+  color: #292C44;
+}
+
+ .tbpadding {
+  padding: 40px 40px;
+  margin-bottom: 40px;
+  background: #F0F0F1; 
+}
+
+.area_inf {
+  padding: 40px 40px;
+  background: #4F80E1;
+  margin-top: 40px;
+}
+
+td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #dcdcff;
+    border-top: 1px solid #dcdcff;
+    width: -0.714%;
+}
+
+.evento {
+    text-align: left;
+}
+
+.rodape {
+	padding: 20px 10px;
+	background: #112C61;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable .glyphicon {
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span {
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+
+.panel-janeiro > .panel-heading {
+	color: #fff;
+    background-color: #1F52B2;
+    border-color: #1F52B2;
+}
+
+.color_fundo {
+	background-color: #292C44;
+}
+.color_texto {
+	color: #fff;
+}
+
+.panel-fevereiro > .panel-heading {
+    color: #fff;
+    background-color: #2C95FF;
+    border-color: #2C95FF;
+}
+
+.panel-marco > .panel-heading {
+    color: #fff;
+    background-color: #1F52B2;
+    border-color: #1F52B2;
+}
+
+.panel-abril > .panel-heading {
+    color: #fff;
+    background-color: #2C95FF;
+    border-color: #2C95FF;
+}
+
+.panel-maio > .panel-heading {
+    color: #fff;
+    background-color: #1F52B2;
+    border-color: #1F52B2;
+}
+
+.panel-junho > .panel-heading {
+    color: #fff;
+    background-color: #2C95FF;
+    border-color: #2C95FF;
+}
+
+.pdf_button {
+	padding: 20px;
+}
+
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+
+.table-style .today {
+	background: #2A3F54; color: #ffffff;
+}
+.table-style th:nth-of-type(7),td:nth-of-type(7) {color: blue;}
+.table-style th:nth-of-type(1),td:nth-of-type(1) {color: red;}
+.table-style tr:first-child th{background-color:#F6F6F6; text-align:center; font-size: 15px;}
+
+.text_footer {
+
+  color: #fff;
+  font-weight: 500;
+}
+
+.line_pdf {
+  
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+
+
+/* =========== CALENDÁRIO ============== */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+}
+
+table {
+  clear: both;
+  width: 100%;
+  border: 1px solid #dcdcff;
+  border-radius: 3px;
+  border-collapse: collapse;
+  color: #444;
+}
+td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #dcdcff;
+    border-top: 1px solid #dcdcff;
+    width: -0.714%;
+}
+td.not-current {
+  color: #c0c0c0;
+}
+td.today {
+  font-weight: 700;
+  color: #28283b;
+  font-size: 1.5em;
+}
+thead td {
+  border: none;
+  color: #28283b;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+#btnPrev {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev,
+#btnNext {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev:hover,
+#btnNext:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== BTN FEVEREIRO ============== */
+
+#btnPrev2 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev2:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext2 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext2:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev2,
+#btnNext2 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev2:hover,
+#btnNext2:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN FEVEREIRO ============== */
+
+/* =========== BTN MARÇO ============== */
+
+#btnPrev3 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev3:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext3 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext3:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev3,
+#btnNext3 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev3:hover,
+#btnNext3:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN MARÇO ============== */
+
+
+/* =========== BTN ABRIL ============== */
+
+#btnPrev4 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev4:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext4 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext4:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev4,
+#btnNext4 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev4:hover,
+#btnNext4:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN ABRIL ============== */
+
+/* =========== BTN MAIO ============== */
+
+#btnPrev5 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev5:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext5 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext5:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev5,
+#btnNext5 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev5:hover,
+#btnNext5:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN MAIO ============== */
+
+/* =========== BTN JUNHO ============== */
+
+#btnPrev6 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev6:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext6 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext6:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev6,
+#btnNext6 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev6:hover,
+#btnNext6:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN JUNHO ============== */
+
+/* =========== BTN JULHO ============== */
+
+#btnPrev7 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev7:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext7 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext7:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev7,
+#btnNext7 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev7:hover,
+#btnNext7:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN JULHO ============== */
+
+/* =========== BTN AGOSTO ============== */
+
+#btnPrev8 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev8:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext8 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext8:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev8,
+#btnNext8 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev8:hover,
+#btnNext8:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN AGOSTO ============== */
+
+/* =========== BTN SETEMBRO ============== */
+
+#btnPrev9 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev9:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext9 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext9:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev9,
+#btnNext9 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev9:hover,
+#btnNext9:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN SETEMBRO ============== */
+
+/* =========== BTN OUTUBRO ============== */
+
+#btnPrev10 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev10:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext10 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext10:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev10,
+#btnNext10 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev10:hover,
+#btnNext10:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN OUTUBRO ============== */
+
+/* =========== BTN NOVEMBRO ============== */
+
+#btnPrev11 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev11:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext11 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext11:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev11,
+#btnNext11 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev11:hover,
+#btnNext11:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN NOVEMBRO ============== */
+
+/* =========== BTN DEZEMBRO ============== */
+
+#btnPrev12 {
+  float: left;
+  margin-bottom: 20px;
+}
+#btnPrev12:before {
+  content: '\f104';
+  font-family: FontAwesome;
+  padding-right: 4px;
+}
+#btnNext12 {
+  float: right;
+  margin-bottom: 20px;
+}
+#btnNext12:after {
+  content: '\f105';
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+#btnPrev12,
+#btnNext12 {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #c0c0c0;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#btnPrev12:hover,
+#btnNext12:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+/* =========== FIM BTN DEZEMBRO ============== */
+
+
+/* =========== CALENDÁRIO ============== */
+

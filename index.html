@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Calendário Acadêmico 2018 - UNIJIPA</title>
+
+    <link rel="icon" href="imagem/favicon.png">
+
+	<!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom fonts for this template -->
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- calendário -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <!--fim calendário -->
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- INÍCIO TÍTULO -->
+<div class="container-fluid">
+    <section>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="imagem/logo_unijipa.png" alt="">
+            </div>
+        </div>
+        <div class="row text-center tbpadding">
+            <h1 class="page-header"><i class="fa fa-calendar" style="font-size:50px; padding-right:20px;"></i>CALENDÁRIO ACADÊMICO - 2018</h1>
+            <h4 class="">Para visualizar as datas e os eventos clique no sinal de <i class="fa fa-plus" style="font-size:30px; padding:10px;"></i>
+     localizado ao lado do mês correspondente.</h4>
+        </div>
+    </section>
+</div>
+<!-- FIM TÍTULO -->
+
+<!-- INÍCIO PRIMEIRO SEMESTRE -->
+<div class="container box1">
+    <!-- INÍCIO CONTEÚDO JANEIRO -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-janeiro">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        JANEIRO
+                    </h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center data"><h4>01</h4></td>
+                                            <td class="evento"><h4>Feriado de Confraternização Universal</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>12</h4></td>
+                                            <td class="evento"><h4>Prazo final para oferta de Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial das Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Prazo Final para Rematrícula sem multa</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Dia do Farmacêutico</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>22</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial das Disciplinas Especiais de Férias - EAD (segunda chamada)</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">                             
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev" type="button">Anter</button>
+                                    <button id="btnNext" type="button">Próx</button>
+                                    <div id="divCal"></div>
+                                </div>   
+                            </div>
+                        </div>    
+                    </div>
+                    <!-- INÍCIO FERIADO JANEIRO -->
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>01 - Feriado de Confraternização Universal</h5>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- FIM FERIADO JANEIRO -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM CONTEÚDO JANEIRO -->
+    <!-- INÍCIO CONTEÚDO FEVEREIRO -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-fevereiro"><!-- INÍCIO TAB FEVEREIRO -->
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        FEVEREIRO
+                    </h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body"><!-- INÍCIO BODY FEVEREIRO -->
+                	<div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Dia do Publicitário</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/01 a 14/02</h4></td>
+                                            <td class="evento"><h4>Período para a Suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>05/02 a 09/02</h4></td>
+                                            <td class="evento"><h4>Semana Pedagógica (Formação Docente)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07</h4></td>
+                                            <td class="evento"><h4>Exame final das Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>13</h4></td>
+                                            <td class="evento"><h4>Feriado de Carnaval</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>19</h4></td>
+                                            <td class="evento"><h4>Início das Aulas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>29/01 a 02/02</h4></td>
+                                            <td class="evento"><h4>Planejamento Pedagógico</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev2" type="button">Anter</button>
+                                    <button id="btnNext2" type="button">Próx</button>                 
+                                    <div id="divCal2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- INÍCIO FERIADO FEVEREIRO-->
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>13 - Feriado do Carnaval</h5>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- FIM FERIADO FEVEREIRO-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM CONTEÚDO FEVEREIRO -->
+    <div class="row">
+        <div class="col-md-12">
+            <!-- INÍCIO TABELA MARÇO -->
+            <div class="panel panel-marco">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        MARÇO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01/03 a 14/03</h4></td>
+                                            <td class="evento"><h4>Período para a suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Prazo final para solicitação do trancamento de disciplinas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Prazo final para reopção de curso (calouros e veteranos)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência no Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Dia Internacional da Mulher</h4></td>
+                                        </tr>
+                                         <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Colação de Grau - UNIJIPA</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>19/03 a 21/03</h4></td>
+                                            <td class="evento"><h4>Semana da Escola de Negócios</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>19/03 a 21/03</h4></td>
+                                            <td class="evento"><h4>Semana das Escolas de Engenharia e Arquitetura</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Simulado Enade</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>23</h4></td>
+                                            <td class="evento"><h4>Prazo Final para Matrículas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>23</h4></td>
+                                            <td class="evento"><h4>Prazo Final para solicitação de Aproveitamento de Estudos</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>23</h4></td>
+                                            <td class="evento"><h4>Prazo Final para Rematrícula com multa</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>26</h4></td>
+                                            <td class="evento"><h4>Início da Ambientação - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>26/03 a 30/03</h4></td>
+                                            <td class="evento"><h4>Período de Envio das Avaliações às Coord. de Curso (Docentes)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>30</h4></td>
+                                            <td class="evento"><h4>Feriado da Paixão de Cristo</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO MARÇO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev3" type="button">Anter</button>
+                                    <button id="btnNext3" type="button">Próx</button>                 
+                                    <div id="divCal3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO MARÇO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>30 - Feriado da Paixão de Cristo</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM TABELA MARÇO -->
+        </div>
+        <!-- INÍCIO DA TABELA ABRIL -->
+        <div class="col-md-12">
+            <div class="panel panel-abril">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        ABRIL</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 1 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02/04 a 13/04</h4></td>
+                                            <td class="evento"><h4>Período para a suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência do Ensino Superior (GEDES)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Dia mundial da Luta Contra o Câncer</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>16</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 2 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>16/04 a 27/04</h4></td>
+                                            <td class="evento"><h4>Semana de Avaliações - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>17/04 a 30/04</h4></td>
+                                            <td class="evento"><h4>Período de Solicitações de 2ª chamada - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>21</h4></td>
+                                            <td class="evento"><h4>Feriado de Tiradentes</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>25</h4></td>
+                                            <td class="evento"><h4>Dia do Contador</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>30</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 3 - Disciplina Online</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO ABRIL-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev4" type="button">Anter</button>
+                                    <button id="btnNext4" type="button">Próx</button>                 
+                                    <div id="divCal4"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO ABRIL-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>21 - Feriado de Tiradentes</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- INÍCIO DA TABELA ABRIL -->
+    </div>
+    <!-- INÍCIO TABELA MAIO  -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-maio">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        MAIO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Feriado do Dia do Trabalho</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/05 a 31/05</h4></td>
+                                            <td class="evento"><h4>Período de Aplicação da Pesquisa de Satisfação (CPA)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>05</h4></td>
+                                            <td class="evento"><h4>Avaliações de 2ª chamada - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>05</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência do Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07/05 a 25/05</h4></td>
+                                            <td class="evento"><h4>Período de Avaliação Dissertativa - A2</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08/05 a 28/05</h4></td>
+                                            <td class="evento"><h4>Solicitação de 2ª chamada - A2</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>12</h4></td>
+                                            <td class="evento"><h4>Dia do Enfermeiro</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>14</h4></td>
+                                            <td class="evento"><h4>Início Módulo 4 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>14/05 a 16/05</h4></td>
+                                            <td class="evento"><h4>Semana Acadêmica das Escolas de Ciências Humanas e Sociais</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>14/05 a 16/05</h4></td>
+                                            <td class="evento"><h4>Semana Acadêmica da Escola de Ciências da Saúde</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Dia do Assistente Social</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Dia do Pedagogo</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>21</h4></td>
+                                            <td class="evento"><h4>Início Módulo 8 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>21/05 a 25/05</h4></td>
+                                            <td class="evento"><h4>Período de envio das Avaliações às Coord. de Cursos (Docentes)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>28/05 a 01/06</h4></td>
+                                            <td class="evento"><h4>Segunda Chamada - A2</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>31</h4></td>
+                                            <td class="evento"><h4>Feriado de Corpus Christi</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO MAIO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev5" type="button">Anter</button>
+                                    <button id="btnNext5" type="button">Próx</button>                 
+                                    <div id="divCal5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO MAIO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriados do Mês</h5>
+                            <hr>
+                            <h5>01 - Feriado do Dia do Trabalho</h5><br>
+                            <h5>31 - Feriado de Corpus Christi</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-junho">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        JUNHO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência do Ensino Superior (GEDES)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>05</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07</h4></td>
+                                            <td class="evento"><h4>Solicitação de 2ª Chamada - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>09</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial - Disciplina Online - 2ª Chamada</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>11/06 a 25/06</h4></td>
+                                            <td class="evento"><h4>Semana de Avaliações - A4 (Avaliação Final)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>12/06 a 27/06</h4></td>
+                                            <td class="evento"><h4>Solicitação de 2ª Chamada - A4</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>18</h4></td>
+                                            <td class="evento"><h4>Feriado do Dia do Evangélico</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Resultado Parcial - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>22</h4></td>
+                                            <td class="evento"><h4>Prazo Final para lançamento da A3 no Sistema</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>25</h4></td>
+                                            <td class="evento"><h4>Início do Período de Rematrículas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>27</h4></td>
+                                            <td class="evento"><h4>Exame Final - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>30</h4></td>
+                                            <td class="evento"><h4>Avaliação 2ª Chamada - A4</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO JUNHO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev6" type="button">Anter</button>
+                                    <button id="btnNext6" type="button">Próx</button>                 
+                                    <div id="divCal6"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO JUNHO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>18 - Feriado do Dia do Evangélico</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FIM PRIMEIRO SEMESTRE -->
+
+<!-- INÍCIO SEGUNDO SEMESTRE -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-maio">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        JULHO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>02/07 a 06/07</h4></td>
+                                            <td class="evento"><h4>Exame Final</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02/07 a 23/07</h4></td>
+                                            <td class="evento"><h4>Oferta de Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência no Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>09</h4></td>
+                                            <td class="evento"><h4>Início do Recesso Estudantil</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Resultado Final - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>16/07 a 20/07</h4></td>
+                                            <td class="evento"><h4>Semana Pedagógica (Formação Docente)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>18/07 a 22/07</h4></td>
+                                            <td class="evento"><h4>Matrícula em Disciplicas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Prazo Final para Diários na Secretaria Acadêmica</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>23</h4></td>
+                                            <td class="evento"><h4>Início das Aulas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>24</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial das Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>25</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial das Disciplinas Especiais de Férias - EAD<br>(Segunda Chamada)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>31</h4></td>
+                                            <td class="evento"><h4>Exame Final das Disciplinas Especiais de Férias - EAD</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO MAIO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev7" type="button">Anter</button>
+                                    <button id="btnNext7" type="button">Próx</button>                 
+                                    <div id="divCal7"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO MAIO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-junho">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        AGOSTO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01/08 a 14/08</h4></td>
+                                            <td class="evento"><h4>Período para a suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Prazo final para solicitação de trancamento de disciplinas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>04</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência do Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Prazo final para Rematrículas sem multa</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>22</h4></td>
+                                            <td class="evento"><h4>Prazo final para Rematrículas com multa</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>22</h4></td>
+                                            <td class="evento"><h4>Prazo final para Matrículas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>27</h4></td>
+                                            <td class="evento"><h4>Período de envio das Avaliações às Coord. de Cursos (Docentes)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>27</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 1 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>27</h4></td>
+                                            <td class="evento"><h4>Dia do Psicólogo</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>27</h4></td>
+                                            <td class="evento"><h4>Dia do Nutricionista</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO JUNHO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev8" type="button">Anter</button>
+                                    <button id="btnNext8" type="button">Próx</button>                 
+                                    <div id="divCal8"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO JUNHO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-maio">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        SETEMBRO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01/09 a 28/09</h4></td>
+                                            <td class="evento"><h4>Apoio ao Setembro Amarelo</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Dia do Profissional de Educação Física</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência do Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Dia do Biólogo</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 2 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03/09 a 14/09</h4></td>
+                                            <td class="evento"><h4>Período para a Suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>07</h4></td>
+                                            <td class="evento"><h4>Feriado de Independência do Brasil</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>09</h4></td>
+                                            <td class="evento"><h4>Dia do Administrador</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 3 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>17</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 4 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>17/09 a 28/09</h4></td>
+                                            <td class="evento"><h4>Semana de Avaliações - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>18/09 a 01/10</h4></td>
+                                            <td class="evento"><h4>Solicitações de 2ª Chamada - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>24</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 5 - Disciplina Online</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO MAIO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev9" type="button">Anter</button>
+                                    <button id="btnNext9" type="button">Próx</button>                 
+                                    <div id="divCal9"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO MAIO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>07 - Feriado de Independência do Brasil</h5><br>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-junho">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        OUTUBRO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 6 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/10 a 12/10</h4></td>
+                                            <td class="evento"><h4>Período para a Suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/10 a 31/10</h4></td>
+                                            <td class="evento"><h4>Período de Aplicação da Pesquisa de Satisfação (CPA)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/10 a 31/10</h4></td>
+                                            <td class="evento"><h4>Apoio ao Outubro Rosa</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Solicitações de 2ª Chamada - Prova Athenas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>06</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudosem Docência no Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>06</h4></td>
+                                            <td class="evento"><h4>Avaliações - 2ª Chamada - A1</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 7 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10</h4></td>
+                                            <td class="evento"><h4>Prova Athenas - 2ª Chamada</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>12</h4></td>
+                                            <td class="evento"><h4>Feriado de Nossa senhora Aparecida</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>13</h4></td>
+                                            <td class="evento"><h4>Dia do Fisioterapeuta</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Início do Módulo 8 - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Dia dos Professores</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>19</h4></td>
+                                            <td class="evento"><h4>Dia do Profissional de Informática</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>23</h4></td>
+                                            <td class="evento"><h4>Sugestão: Feira das Profissões</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>25</h4></td>
+                                            <td class="evento"><h4>Dia do Cirurgião Dentista</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>29/10 a 02/11</h4></td>
+                                            <td class="evento"><h4>Período de Envio das Avaliações às Coord. de Curso (Docentes)</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>30</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>31/10 a 01/11</h4></td>
+                                            <td class="evento"><h4>Solicitação de 2ª Chamada - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>31</h4></td>
+                                            <td class="evento"><h4>Prova Athenas: Teste de Progresso</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO JUNHO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev10" type="button">Anter</button>
+                                    <button id="btnNext10" type="button">Próx</button>                 
+                                    <div id="divCal10"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO JUNHO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriado do Mês</h5>
+                            <hr>
+                            <h5>18 - Feriado de Nossa Senhora Aparecida</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-maio">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        NOVEMBRO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01/11 a 30/11</h4></td>
+                                            <td class="evento"><h4>Apoio ao Novembro Azul</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>01/11 a 14/11</h4></td>
+                                            <td class="evento"><h4>Período para suspensão do FIES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>02</h4></td>
+                                            <td class="evento"><h4>Feriado do Dia de Finados</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Avaliação Presencial - Disciplina Online - 2ª Chamada</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Grupo de Estudos em Docência no Ensino Superior - GEDES</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Solicitações de 2ª Chamada - Prova Athenas: Teste de progresso</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>08</h4></td>
+                                            <td class="evento"><h4>Avaliações - 2ª Chamada - A2</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10</h4></td>
+                                            <td class="evento"><h4>Prova Athenas: Teste de progresso - 2ª Chamada</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>14</h4></td>
+                                            <td class="evento"><h4>Exame Final - Disciplina Online</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Feriado da Proclamação da Replública</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>16</h4></td>
+                                            <td class="evento"><h4>Recesso</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>19/11 a 30/11</h4></td>
+                                            <td class="evento"><h4>Semana de Avaliação - A2</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Dia do Biomédico</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Dia Nacional da Consciência Negra</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20/11 a 03/12</h4></td>
+                                            <td class="evento"><h4>Solicitações de 2ª Chamada - A2</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO MAIO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev11" type="button">Anter</button>
+                                    <button id="btnNext11" type="button">Próx</button>                 
+                                    <div id="divCal11"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO MAIO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriados do Mês</h5>
+                            <hr>
+                            <h5>02 - Feriado do Dia de Finados</h5><br>
+                            <h5>15 - Feriado de Proclamação da Replública</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-junho">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        DEZEMBRO</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <!--<div class="panel-heading">
+                                    <h3 class="panel-title">Developers</h3>
+                                </div>-->
+                                <table class="table table-bordered table-hover" id="dev-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="color_fundo"><h4 class="color_texto">DATA</h4></th>
+                                            <th class="color_fundo"><h4 class="color_texto">EVENTO</h4></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center"><h4>01</h4></td>
+                                            <td class="evento"><h4>Dia Mundial da Luta contra a Aids</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>03</h4></td>
+                                            <td class="evento"><h4>Início do período de Rematrículas</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10</h4></td>
+                                            <td class="evento"><h4>Dia Mundial dos Direitos Humanos</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10</h4></td>
+                                            <td class="evento"><h4>Início do Recesso Estudantil</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>10/12 a 14/12</h4></td>
+                                            <td class="evento"><h4>Exame Final</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>11</h4></td>
+                                            <td class="evento"><h4>Dia do Engenheiro</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>15</h4></td>
+                                            <td class="evento"><h4>Dia do Arquiteto</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>20</h4></td>
+                                            <td class="evento"><h4>Prazo Final para Diários na Secretaria Acadêmica</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>21</h4></td>
+                                            <td class="evento"><h4>Início do Recesso Docente</h4></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center"><h4>25</h4></td>
+                                            <td class="evento"><h4>Feriado de Natal</h4></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- INÍCIO CALENDÁRIO JUNHO-->
+                        <div class=" col-md-4" style="border:0px solid">
+                            <div class="col-md-12" style="padding:0px;">
+                                 <div class="calendar-wrapper">
+                                    <button id="btnPrev12" type="button">Anter</button>
+                                    <button id="btnNext12" type="button">Próx</button>                 
+                                    <div id="divCal12"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CALENDÁRIO JUNHO-->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <h5>Feriados do Mês</h5>
+                            <hr>
+                            <h5>25 - Feriado de Natal</h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- FIM CONTEÚDO -->
+
+<div class="container-fluid line_pdf">
+
+    <div class="area_inf">
+        <div class="row text-center">
+            <h3 class="calPdf"><i class="fa fa-calendar-plus-o" style="font-size:48px; padding-right: 20px;"></i>Calendário formato PDF</h3><br>
+        </div>
+        
+        <div class="row text-center pdf_button">
+            <a class="btn btn-danger btn-lg" href="http://unijipa.edu.br/media/calendario/unijipa/pdf/calendario_unijipa.pdf" target="_blank">
+            <i class="fa fa-file-pdf-o fa-lg"></i> Visualize a versão em PDF</a>
+        </div>
+    </div>
+    
+</div>
+
+<footer class="rodape">
+
+    <section>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid" src="imagem/rodape_unijipa.png" alt="">
+            </div>
+        </div>
+        <div class="row text-center">
+            <br>
+            <h5 class="text_footer">© Copyright 2018 - Athenas Grupo Educacional - Todos os direitos reservados.</h5>
+        </div>
+    </section>
+    
+
+</footer>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="js.js"></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
